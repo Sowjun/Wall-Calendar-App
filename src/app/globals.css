@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
+/* Optional theme */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #000000;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendar-grid-flip-out-left {
+  animation: grid-flip-out-left 300ms ease-in-out forwards;
+}
+
+.calendar-grid-flip-in-right {
+  animation: grid-flip-in-right 300ms ease-in-out forwards;
+}
+
+.calendar-grid-flip-out-right {
+  animation: grid-flip-out-right 300ms ease-in-out forwards;
+}
+
+.calendar-grid-flip-in-left {
+  animation: grid-flip-in-left 300ms ease-in-out forwards;
+}
+
+.theme-arrow:hover {
+  color: var(--theme-primary);
+}
+
+@keyframes grid-flip-out-left {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes grid-flip-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes grid-flip-out-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+@keyframes grid-flip-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
