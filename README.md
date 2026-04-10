@@ -1,39 +1,39 @@
-# Wall Calendar App
+Wall Calendar App
 
-A modern and interactive wall calendar built using Next.js.
+So this is a simple project I built — a modern, interactive wall calendar using Next.js.
+The goal was to take a regular calendar and make it feel smooth, usable, and visually clean.
 
-## Features
+🔗 Live Demo: https://wall-calendar-app-five.vercel.app/
 
-* Monthly calendar view
-* Date range selection
-* Notes for specific dates and ranges
-* Light and dark mode
-* Smooth UI animations
-
-## Tech Stack
-
-* Next.js
-* React
-* Tailwind CSS
-* date-fns
-* framer-motion
-
-## Getting Started
+What it can do
+View the current month in a clean layout
+Select single dates or a range of dates
+Add notes to specific days or date ranges
+Switch between light and dark mode
+Smooth animations to make everything feel more alive
+Tech I used
+Next.js
+React
+Tailwind CSS
+date-fns (for date handling)
+Framer Motion (for animations)
+How to run it locally
 
 Install dependencies:
+
 npm install
 
-Run the development server:
+Start the app:
+
 npm run dev
 
-Open http://localhost:3000 in your browser.
+Then open:
+http://localhost:3000
 
-## Project Structure
+Project structure (quick overview)
+src/app/page.tsx → main calendar logic
+src/app/layout.tsx → layout setup
+src/app/globals.css → global styles
+Deployment
 
-* src/app/page.tsx – main calendar logic
-* src/app/layout.tsx – layout and global setup
-* src/app/globals.css – styling
-
-## Deployment
-
-You can deploy this project easily using Vercel.
+This project is deployed using Vercel, so you can easily clone and deploy your own version there.
