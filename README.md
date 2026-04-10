@@ -14,9 +14,13 @@ Smooth animations to make everything feel more alive
 
 **Tech I used**
 Next.js
+
 React
+
 Tailwind CSS
+
 date-fns (for date handling)
+
 Framer Motion (for animations)
 
 How to run it locally
