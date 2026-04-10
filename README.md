@@ -1,6 +1,6 @@
 Wall Calendar App
 
-So this is a simple project I built — a modern, interactive wall calendar using Next.js.
+So this is a simple project I built-a modern, interactive wall calendar using Next.js.
 The goal was to take a regular calendar and make it feel smooth, usable, and visually clean.
 
 🔗 Live Demo: https://wall-calendar-app-five.vercel.app/
