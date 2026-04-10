@@ -24,11 +24,11 @@ How to run it locally
 
 npm install
 
-Start the app:
+**Start the app:**
 
 npm run dev
-**
-**Then open:
+
+Then open:
 http://localhost:3000
 
 **Project structure (quick overview)**
