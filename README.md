@@ -23,7 +23,7 @@ date-fns (for date handling)
 
 Framer Motion (for animations)
 
-How to run it locally
+_How to run it locally_
 
 **Install dependencies:**
 
