@@ -34,9 +34,11 @@ Then open:
 http://localhost:3000
 
 **Project structure (quick overview)**
-src/app/page.tsx → main calendar logic
-src/app/layout.tsx → layout setup
-src/app/globals.css → global styles
+
+* `src/app/page.tsx` → Main calendar logic
+* `src/app/layout.tsx` → Layout setup and global structure
+* `src/app/globals.css` → Global styling
+
 **Deployment**
 
 This project is deployed using Vercel, so you can easily clone and deploy your own version there.
