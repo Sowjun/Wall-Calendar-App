@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { getNoteKey } from "@/lib/notesStorage";
+import { getNoteKey, findBestNoteKey } from "@/lib/notesStorage";
 import { quickEventTags } from "@/features/calendar/constants";
 import { calculateRangeMetrics } from "@/features/calendar/utils/rangeMetrics";
 import { useStore } from "@/store/useStore";
